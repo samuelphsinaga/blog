@@ -1,7 +1,6 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container">
 
-
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -26,24 +25,14 @@
                   // print_r($row);
                   $categories_title = $row['cat_title'];
 
-
                   echo "<li><a href='#'>$categories_title</a></li>";
                 }
 
                ?>
 
-
-                <!-- <li>
-                    <a href="#">About</a>
-                </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="admin">Admin</a>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li> -->
-
-
 
             </ul>
         </div>
